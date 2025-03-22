@@ -18,7 +18,7 @@ To start the project in development mode (with auto-reload if using `nodemon`):
 
 ```bash
 yarn dev
-
+```
 
 ![image](https://github.com/user-attachments/assets/cd34a2c6-9765-4610-b8ab-368978be92f5)
 ![image](https://github.com/user-attachments/assets/8b3a7374-72b9-4585-88e6-8281ca769c6c)
