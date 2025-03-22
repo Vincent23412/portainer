@@ -1,0 +1,28 @@
+{
+  "name": "portainer",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc && tsc-esm-fix dist", 
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@esbuild/linux-x64": "^0.25.0",
+    "dockerode": "^4.0.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "ssh2": "^1.16.0"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^3.3.35",
+    "@types/express": "^5.0.1",
+    "@types/morgan": "^1.9.9",
+    "tsc-esm-fix": "^3.1.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.2"
+  }
+}

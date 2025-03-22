@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "js,ts,yaml,yml",
+    "exec": "yarn tsx ./src/index.js"
+  }
+  
